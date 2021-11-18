@@ -1,0 +1,78 @@
+body{
+    margin : 0;
+    padding: 0;
+}
+
+.navbar{
+    position: fixed;
+    top:0;
+    z-index: 1;
+    width:100%;
+    background-color: white  ;
+    padding: 20px 0;
+     
+ }
+ .br{
+     float:left;
+     font-weight: bold;
+     
+ }
+ 
+ a{
+    display : block;
+    float : right;
+    margin-right:35px;
+    font-size: 15px;
+    font-family: Verdana,sans-serif;
+    letter-spacing: 4px;
+    text-decoration: none;
+    
+   
+}
+
+a:link{
+    color: black;
+}
+a:hover{
+    background-color: 	#D3D3D3;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 24%;
+    display: inline-block;
+    
+    
+}
+  .summer{
+      width:50%;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    background-color:black;
+    width: 40%;
+    color: white;
+    text-align:center;
+    padding:8px;
+  }
+
+  .adjust-left{
+      margin-left : 2%;
+  }
+ 
+.contact{
+      width: 24%;
+      text-align: center;
+      border: solid 1px #D3D3D3;
+     }
+
+.contact:hover{
+    color:grey;
+}
